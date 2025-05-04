@@ -60,7 +60,7 @@
 
 On the frontend, I transformed the boilerplate into a polished, modular interface with the following key improvements:
 
-1. Start the development server: Authentication System: Built secure login and registration flows with persistent sessions using localStorage. The login state is preserved across page refreshes, and the UI conditionally renders the dashboard or authentication modals based on user status.
+1. Authentication System: Built secure login and registration flows with persistent sessions using localStorage. The login state is preserved across page refreshes, and the UI conditionally renders the dashboard or authentication modals based on user status.
 
 2. Dynamic Auth Toggle: Implemented a seamless switch between login and registration in a unified modal, enhancing the user onboarding experience.
 
