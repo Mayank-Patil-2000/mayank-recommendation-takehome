@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Link to the video walkthrough -> https://youtu.be/WwbUOHW1B6c
 
 ## Backend
