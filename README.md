@@ -86,7 +86,7 @@ On the frontend, I transformed the boilerplate into a polished, modular interfac
 
 2. Malformed JSON Output from LLM
 
-   1. At times, the LLM returned JSON arrays with syntax issues—missing commas, trailing characters, or incorrectly quoted values.
+   1. At times, the LLM returned JSON arrays with syntax issues, missing commas, trailing characters, or incorrectly quoted values.
    2. I addressed this by using regex (re.search(r'\[\s*{.*?}\s*]', ..., re.DOTALL)) to isolate the JSON block from the raw response, then cleaned it using additional regex transformations (removing trailing commas).
    3. I also wrapped the parsing logic in a try/except block to ensure the application wouldn't break and instead return meaningful fallback error messages.
 
