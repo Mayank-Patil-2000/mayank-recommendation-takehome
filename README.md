@@ -1,5 +1,5 @@
 
-## Github Link - https://github.com/Mayank-Patil-2000/mayank-recommendation-takehome
+## Walkthrough Link - https://youtu.be/WwbUOHW1B6c
 
 ## Backend
 ## Setup Instructions
